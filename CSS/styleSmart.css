@@ -1,0 +1,145 @@
+header,main{
+    padding-left: 0;
+    padding-right: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.hebact:hover{
+    color: #0065FC;
+    border-bottom: solid #0065FC;
+    border-top: none;
+}
+.hebact{
+    border-bottom: solid #F2F2F2;
+}
+nav a{
+    width: 50%;
+}
+h1, .marg,form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+form{
+    width: 90%;
+}
+
+.fa-location-dot{
+    max-width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.recherche{
+    max-width: 70%;
+}
+input[type=text]{
+    width: 100%;
+}
+.bouton {
+    width: 48px;
+}
+i.fa-solid.fa-magnifying-glass{
+    display: initial;
+}
+.bouton span{
+    display: none;
+}
+#filtre{
+    margin-right: 80%;
+}
+#filtres{
+    display: flex;
+    justify-content: start;
+    margin-right: 5% ;
+    margin-left: 5%;
+ }
+.filtre{
+    margin-left: 0;
+    margin-right: 10px ;
+}
+i.fa-solid.fa-info{
+    margin-left: 5%;
+    width: 24px;
+}
+
+#hebergement{
+    flex-wrap: wrap-reverse;
+}
+.fav{
+    border-radius: 0;
+    width: 100%;
+    height: 550px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.card-fav{
+    max-width: 100%;
+    margin-bottom: 25px;
+    width: initial;
+}
+.card-image-fav{
+    width: 45%;
+}
+.card-body-fav{
+    width: 50%;
+}
+.card-body-fav p:not(.gras){
+    padding-bottom: initial;
+}
+.heb{
+    background-color: initial;
+    padding: 0 5%;
+    margin-bottom: 0;
+    height: 1500px;
+}
+.card{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.act{
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-flow: initial;
+    flex-direction: column;
+    align-content: initial;
+    justify-content: center;
+    height: initial;
+}
+.card-act{
+    max-width: 100%;
+    width: initial;
+    margin-bottom: 10px;
+}
+.card-image-act{
+    height: 90%;
+}
+.card-image-act img{
+    max-width: 100%;
+}
+#activite h2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-act:nth-child(1), .card-act:nth-child(2), .card-act:nth-child(3), .card-act:nth-child(4), .card-act:nth-child(5), .card-act:nth-child(6){
+    margin-bottom: 25px;
+    height: 190px;
+}
+.bas{
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
